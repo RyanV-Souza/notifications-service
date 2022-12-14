@@ -1,6 +1,5 @@
-import { PrismaService } from './../../database/prisma/prisma.service';
 import { CreateNotificationBody } from '../dtos/create-notification-body';
-import { Controller, Get, Body, Post } from '@nestjs/common';
+import { Controller, Body, Post } from '@nestjs/common';
 import { SendNotification } from 'src/application/use-cases/send-notification';
 
 @Controller('notifications')
